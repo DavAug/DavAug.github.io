@@ -3777,7 +3777,7 @@ input, select, textarea {
 
 	body.is-mobile #wrapper > section > header {
 		background-size: 200%;
-		background-position: 10% 1;
+		background-position: -15% 5%;
 	}
 
 	#wrapper:before {

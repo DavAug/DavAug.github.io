@@ -3263,6 +3263,7 @@ input, select, textarea {
 			#wrapper section > .content {
 				grid-area: content;
 				max-width: 60rem;
+				background: white;
 				position: relative;
 			}
 
@@ -3352,6 +3353,7 @@ input, select, textarea {
 				#wrapper > section.intro > .content {
 					height: 100vh;
 					max-width: none;
+					background: none;
 				}
 
 			#wrapper > section:last-of-type > header:before {
@@ -3392,7 +3394,7 @@ input, select, textarea {
 			}
 
 			#wrapper section > .content {
-				padding: 0 5rem;
+				padding: 4rem;
 			}
 
 			#wrapper section > footer {
@@ -3777,7 +3779,7 @@ input, select, textarea {
 
 	body.is-mobile #wrapper > section > header {
 		background-size: 200%;
-		background-position: -15% 5%;
+		background-position: -15% -5%;
 	}
 
 	#wrapper:before {

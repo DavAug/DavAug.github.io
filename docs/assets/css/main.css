@@ -3771,7 +3771,7 @@ input, select, textarea {
 		}
 
 	body.is-mobile #wrapper:before {
-		background-attachment: scroll;
+		background-attachment: fixed;
 		background-repeat: repeat-y;
 	}
 

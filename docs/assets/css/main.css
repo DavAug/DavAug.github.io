@@ -2463,12 +2463,17 @@ input, select, textarea {
 			object-position: 25% 75%;
 		}
 
-		.image.left, .image.right {
+		.image.left, .image.right, image.center {
 			max-width: 40%;
 		}
 
 			.image.left img, .image.right img {
 				width: 100%;
+			}
+
+			.image.center img {
+				width: 100%;
+				border-radius: 4rem;
 			}
 
 		.image.left {
@@ -2481,6 +2486,14 @@ input, select, textarea {
 			float: right;
 			margin: 0 0 2rem 2rem;
 			top: 0.25rem;
+		}
+
+		.image.center {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: 4rem;
+			width: 50%;
 		}
 
 		.image.fit {
@@ -3265,6 +3278,7 @@ input, select, textarea {
 				max-width: 60rem;
 				background: white;
 				position: relative;
+				border-radius: 2rem;
 			}
 
 			#wrapper section > footer {

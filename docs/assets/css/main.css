@@ -3226,7 +3226,7 @@ input, select, textarea {
 			background-image: url('../../images/medical_backrground.png');
 			background-size: 90%;
 			background-position: 190% 100%;
-			background-repeat: round;
+			background-repeat: repeat;
 			opacity: 60%;
 			content: '';
 			display: block;
